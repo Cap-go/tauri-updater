@@ -1,0 +1,19 @@
+{
+  "productName": "Tauri Updater Example",
+  "version": "0.1.0",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Tauri Updater Example",
+        "width": 900,
+        "height": 600
+      }
+    ]
+  }
+}
